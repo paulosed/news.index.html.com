@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: "poppins",sans-serif
+}
+a, :hover{
+text-decoration: none;
+}
+.top-bar{
+display: flex;
+text-align: center;
+justify-content: space-between;
+padding: 10px 25px;
+background-color: black;
+}
+.top-bar span{
+color: #fff;
+}
+.top-bar ul{
+list-style: none;
+display: flex;
+}
+.top-bar li{
+margin: 0px 5px;
+}
+.top-bar a{
+color: red;
+}
+.top-bar a:hover{
+color:#222;
+}
+nav{
+background: palevioletred;
+padding: 5px 20px;
+display: flex;
+align-items: center;
+}
+.logo img{
+width:40px;
+margin-right:10px;
+}
+nav a{
+color: #fff;
+}
+nav a:hover{
+color: #efefef;
+}
+.logo{
+flex: 1;
+}
+.logo a{
+display: flex;
+align-items: center;
+font-size: 20px;
+}
+.logo img{
+width: 40px;
+margin-right: 20px;
+}
+.menu{
+display: flex;
+align-items: center;
+list-style: none;
+}
+.menu li{
+padding: 15px 10px;
+font-size: 16px;
+}
+.toggle{
+font-size:30px;
+display: none;
+}
+.for{
+display: flex;
+flex-wrap: wrap;
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 20px;
+}
+.for-1{
+width: 480px;
+margin:0px 20px;
+}
+.for-1 img{
+width: 100%;
+height: 300px;
+}
+.for-1 p{
+line-height: 1.5em;
+}
+.wel{
+margin:0px 20px;
+color: blue;
+margin-top: 10px;
+text-decoration: overline;
+}
+.h2-h2{
+background-color: gainsboro;
+}
+.for-2{
+max-width: 500px;
+background-color: ghostwhite;
+}
+.for-3{
+line-height: 1.7em;
+font-size: large;
+}
+for-4{
+position: absolute;
+bottom: 0;
+}
+.for-5{
+max-width: 280px;
+margin-left: 5px;
+margin-right: 5px;
+position: relative;
+}
+.for-5 img{
+width: 100%;
+height: 250px;
+
+}
+.top{
+position:absolute;
+bottom: 0;
+color: whitesmoke;
+margin-left:20px;
+margin-right: 15px;
+line-height: 1.5em;
+}
+.for-5 a{
+display: block;
+width: 125px;
+border:none;
+
+border-radius: 2px;
+text-align: center;
+padding: 0px 5px;
+font-size: 14px;
+margin: 10px 0 10px 10px;
+background-color: bisque;
+}
+.h4-h5{
+background-color:ghostwhite;
+}
+.pop{
+color: brown;
+text-decoration: underline;
+}
+.pop-1{
+color: red;
+text-decoration: overline;
+}
+.pop-2{
+color: blue;
+text-decoration: overline;
+}
+.pop-4{
+color: hotpink;
+text-decoration: overline;
+}
+.adv{
+background-color: red;
+max-width: 100%;
+}
+.adv-1{
+text-align: center;
+}
+.fat{
+display: flex;
+flex-wrap: wrap;
+margin-left: 20px;
+margin-right: 20px;
+}
+.fat-1{
+width: 413px;
+margin: 10px;
+position: relative;
+}
+.fat-1 img{
+width: 100%;
+}
+.fat-top{
+    position:absolute;
+    bottom: 0;
+    color: whitesmoke;
+    margin-left:20px;
+    margin-right: 15px;
+    line-height: 1.5em;
+}
+.fat-1 a{
+        display: block;
+        width: 125px;
+        border:none;
+        
+        border-radius: 2px;
+        text-align: center;
+        padding: 0px 5px;
+        font-size: 14px;
+        margin: 10px 0 10px 10px;
+        background-color: bisque;
+        }
+        .div{
+        display: flex;
+        }
+        .net{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 23px;
+        margin-right: 23px;
+        }
+        .net-1{
+        display: flex;
+        }
+        .net-1 img{
+        max-width: 100px;
+        margin:6px;
+        border-radius: 10px;
+        }
+        .net-2{
+        max-width: 350px;
+        margin: 6px;
+        }
+        .net-2 img{
+        width: 100%;
+        }
+        net-2 p{
+        padding-left: 13px;
+        }
+        net-2 h2{
+        padding-left: 13px;
+        }
+        .net-3{
+        display: flex;
+        }
+        .net-3 img{
+        max-width: 100px;
+        margin:5px ;
+        border-radius: 10px;
+        }
+        .online{
+        margin-left: 20px;
+        color: aqua;
+        text-decoration: overline;
+        }
+        .net-1 p{
+        margin-top: 10px;
+        }
+        .net-3 p{
+        margin-top:10px;
+        }
+        .hello{
+        margin:0px 20px;
+        color: red;
+        text-decoration: overline;
+        }
+        .footer{
+        background-color: black;
+        width:100%;
+        }
+        .foot{
+        text-align: center;
+        color: #efefef;
+        }
+@media screen and (max-width: 600px){
+ nav{
+ display: block;
+ position:relative;
+ padding: 15px 20px;
+ }
+ .menu{
+display: none;
+margin-top: 15px;
+ }
+ .menu.active,.toggle{
+ display:block;
+ }
+ .toggle{
+position:absolute;
+top: 15px;
+right: 20px;
+ }
+ .for-1{
+ width:300px ;
+ margin-left:5px;
+ margin-right:5px;
+ }
+ .for-1 img{
+ width: 100%;
+ height: 150px;
+ }
+ .for-5{
+  max-width:100%;
+    margin-left:5px;
+    margin-right:5px;
+    position: none;
+    }
+    .for-5 img{
+    max-width: 100%;
+    height: 150px;
+    }
+   .top{
+    font-size: small;
+    margin-left: 0px;
+    color: aquamarine;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 1.7em;
+    
+    }
+    .for-5 p{
+    display: none;
+    }
+    .fat-1{
+    width:300px ;
+    margin-left:5px;
+    margin-right:5px;
+    margin: 0px 0px;
+    }
+    .fat-1 img{
+        width: 100%;
+        height: 150px;
+        
+    } 
+    .fat-top{
+    font-size: small;
+    margin-left: 0px;
+    margin-left: 5px;
+    margin-right: 5px;  
+        
+        
+    }
+    .fat-top p{
+    margin-top: 10px;
+    color: red;
+    display: none;
+    }
+    .net{
+     margin-left: 10px;
+    }
+    .net-1 img{
+    
+    }
+    .net-2{
+    max-width: 300px;
+    line-height: 1.7em;
+    
+    }
+    .net-2 img{
+    max-width: 100%;
+    
+    width: 300px;
+    
+    }
+}
+    
+ 
